@@ -1,0 +1,10 @@
+me\despical\chatmanager\listeners\ToggleChatCommandListener.class
+me\despical\chatmanager\listeners\IgnoredMessageListener.class
+me\despical\chatmanager\Main.class
+me\despical\chatmanager\events\ChatEvents.class
+me\despical\chatmanager\listeners\IgnoredBroadcastMessageListener.class
+me\despical\chatmanager\utils\Utils.class
+me\despical\chatmanager\listeners\IgnoreCommandListener.class
+me\despical\chatmanager\listeners\ToggleCommandListener.class
+me\despical\chatmanager\listeners\MessageCommandListener.class
+me\despical\chatmanager\listeners\MessageListener.class

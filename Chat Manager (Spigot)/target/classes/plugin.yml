@@ -1,0 +1,13 @@
+name: ChatManagerSpigot
+author: Despical
+api-version: 1.16
+main: me.despical.chatmanager.Main
+version: 1.0.0
+commands:
+  msg:
+    aliases: [message, mesaj]
+  togglemsg:
+    aliases: [toggle, mesajtoggle]
+  engelle:
+    aliases: [ignoreplayer]
+  sohbet:

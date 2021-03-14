@@ -1,0 +1,10 @@
+me\despical\chatmanager\handlers\message\MessagePropertyHandler.class
+me\despical\chatmanager\commands\ToggleCommand.class
+me\despical\chatmanager\handlers\message\MessageProperties.class
+me\despical\chatmanager\utils\Utils.class
+me\despical\chatmanager\commands\IgnoreCommand.class
+me\despical\chatmanager\Main.class
+me\despical\chatmanager\commands\MessageCommand.class
+me\despical\chatmanager\utils\ExceptionLogHandler.class
+me\despical\chatmanager\commands\ToggleChatCommand.class
+me\despical\chatmanager\listeners\ChatListener.class

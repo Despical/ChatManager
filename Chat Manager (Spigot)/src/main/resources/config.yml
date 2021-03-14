@@ -1,0 +1,56 @@
+Chat-Cooldown: 10
+
+Global-Cooldown: 30
+
+Chat-Cooldown-Reached: "&cYeniden konuşmak için %cooldown% saniye beklemelisin!"
+
+Chat-Cooldown-Permission: "chatmanager.bypass"
+
+Only-By-Players: "&cBu komut yalnızca oyuncular tarafından kullanılabilir!"
+
+Player-Not-Found: "&c%player% adında bir oyuncu bulunamadı!"
+
+Cant-Send-Yourself: "&cKendine mesaj atamazsın!"
+
+Message-Command-Usage: "&cKomutun doğru kullanılışı: /message <oyuncu> <mesaj>"
+
+Message-Format-Sent: "&f[&a%from% &7-> &a%to%&f] &7>> &l%message%"
+
+Toggled-Enabled: "&cArtık özel mesaj almayacaksın!"
+
+Toggle-Disabled: "&aTekrardan özel mesajları alabileceksin!"
+
+Player-Toggled-Messages: "&c%player% adlı oyuncunun özel mesajları kapalı!"
+
+Server-Format:
+  Only-Radius: ""
+  Current-Server: "&7[&aYerel&7] "
+  Global-Servers: "&7[&a%server%&7] "
+
+Ignore-Command-Usage: "&cKomutun doğru kullanılışı: /engelle <oyuncu>"
+
+Cant-Ignore-Yourself: "&cKendini engelleyemezsin!"
+
+Ignored-Player: "&c%player% adlı oyuncuyu başarıyla engellediniz!"
+
+Unignored-Player: "&a%player% adlı oyuncunun engelini başarıyla kaldırdınız!"
+
+Cant-Send-To-Ignored: "&c%player% adlı oyuncuyu engellediğin için ona mesaj atamazsın!"
+
+Player-Ignored-You: "&c%player% adlı oyuncu seni engellediği için ona mesaj atamazsın!"
+
+Toggle-Chat-Permission: "chatmanager.togglechat"
+
+No-Permission: "&cBu komutu kullanmak için yeterli yetkiye sahip değilsin!"
+
+Enabled-Chat: "&aSohbet %player% tarafından yeniden aktif edildi!"
+
+Already-Enabled: "&cSohbet zaten aktif!"
+
+Disabled-Chat: "&cSohbet %player% tarafından devre dışı bırakıldı!"
+
+Already-Disabled: "&cSohbet zaten %player% tarafından devre dışı bırakılmış!"
+
+Toggle-Chat-Command-Usage: "&cKomutun doğru kullanılışı: /sohbet <aç/kapat>"
+
+Bypass-Chat-Permission: "chatmanager.op"

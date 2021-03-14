@@ -1,0 +1,6 @@
+# true means enabled, false disabled
+Chat: true
+
+Cant-Speak-While-Disabled: "&cSohbet kapalıyken konuşamazsın!"
+
+Bypass-Chat-Permission: "chatmanager.bypass"

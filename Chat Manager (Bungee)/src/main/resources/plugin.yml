@@ -1,0 +1,5 @@
+name: ChatManagerBungee
+author: Despical
+api-version: 1.16
+main: me.despical.chatmanager.Main
+version: ${project.version}

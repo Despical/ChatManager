@@ -1,0 +1,9 @@
+Settings:
+  admin:
+    priority: 1
+    permission: admin
+    message: "%server%&7[&aAdmin&7] &l%player% &7>> &f%message%"
+  player:
+    priority: 2
+    permission: ""
+    message: "%server%&7[&aPlayer&7] &l%player% &7>> &f%message%"
