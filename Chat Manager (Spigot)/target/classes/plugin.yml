@@ -11,3 +11,4 @@ commands:
   engelle:
     aliases: [ignoreplayer]
   sohbet:
+  sohbetsil:

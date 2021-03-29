@@ -41,7 +41,7 @@ public class ToggleChatCommand implements CommandExecutor {
             return true;
         }
 
-        if (args.length == 1 && !(args[0].equalsIgnoreCase("aç") || args[0].equalsIgnoreCase("kapat"))) {
+        if (args.length > 0 && !(args[0].equalsIgnoreCase("aç") || args[0].equalsIgnoreCase("kapat"))) {
             sender.sendMessage(Utils.colorize(plugin.getConfig().getString("Toggle-Chat-Command-Usage")));
             return true;
         }

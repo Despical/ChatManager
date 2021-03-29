@@ -54,3 +54,7 @@ Already-Disabled: "&cSohbet zaten %player% tarafından devre dışı bırakılm�
 Toggle-Chat-Command-Usage: "&cKomutun doğru kullanılışı: /sohbet <aç/kapat>"
 
 Bypass-Chat-Permission: "chatmanager.op"
+
+Cleared-Chat: "&aSohbet &7%player% &atarafından temizlendi!"
+
+Clear-Chat-Permission: "chatmanager.clearchat"

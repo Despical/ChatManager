@@ -1,9 +1,6 @@
 package me.despical.chatmanager;
 
-import me.despical.chatmanager.commands.IgnoreCommand;
-import me.despical.chatmanager.commands.MessageCommand;
-import me.despical.chatmanager.commands.ToggleChatCommand;
-import me.despical.chatmanager.commands.ToggleCommand;
+import me.despical.chatmanager.commands.*;
 import me.despical.chatmanager.listeners.ChatListener;
 import me.despical.chatmanager.utils.ExceptionLogHandler;
 import org.bukkit.Bukkit;
@@ -34,12 +31,14 @@ public class Main extends JavaPlugin {
         getServer().getMessenger().registerOutgoingPluginChannel(this, "despical:togglechat");
         getServer().getMessenger().registerOutgoingPluginChannel(this, "despical:around");
         getServer().getMessenger().registerOutgoingPluginChannel(this, "despical:ignoredbroadcast");
+        getServer().getMessenger().registerOutgoingPluginChannel(this, "despical:clearchat");
 
         new MessageCommand(this);
         new IgnoreCommand(this);
         new ToggleCommand(this);
         new ChatListener(this);
         new ToggleChatCommand(this);
+        new ClearChatCommand(this);
     }
 
     @Override

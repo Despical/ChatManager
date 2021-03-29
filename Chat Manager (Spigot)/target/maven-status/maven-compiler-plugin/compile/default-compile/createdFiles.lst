@@ -1,3 +1,4 @@
+me\despical\chatmanager\commands\ClearChatCommand.class
 me\despical\chatmanager\handlers\message\MessagePropertyHandler.class
 me\despical\chatmanager\commands\ToggleCommand.class
 me\despical\chatmanager\handlers\message\MessageProperties.class

@@ -26,6 +26,7 @@ public class Main extends Plugin {
         getProxy().registerChannel("despical:togglechat");
         getProxy().registerChannel("despical:around");
         getProxy().registerChannel("despical:ignoredbroadcast");
+        getProxy().registerChannel("despical:clearchat");
 
         Utils.setPlugin(this);
         setupFiles();
@@ -37,6 +38,7 @@ public class Main extends Plugin {
         new ToggleChatCommandListener(this);
         new IgnoredMessageListener(this);
         new IgnoredBroadcastMessageListener(this);
+        new ClearChatListener(this);
 
         new ChatEvents(this);
     }
