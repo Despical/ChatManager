@@ -50,7 +50,7 @@ public class MessageListener implements Listener {
 
                 if (config == null) return;
 
-                player.getServer().getInfo().getPlayers().stream().filter(p -> !config.getStringList("Options." + p.getName() + ".ignoredList").contains(senderName) && !player.equals(p))
+                ProxyServer.getInstance().getPlayers().stream().filter(p -> !config.getStringList("Options." + p.getName() + ".ignoredList").contains(senderName) && !player.equals(p))
                         .forEach(p -> p.sendMessage(message.replace("%server%", format.replace("%server%", server))));
                 player.sendMessage(message.replace("%server%", format.replace("%server%", server)));
             }
