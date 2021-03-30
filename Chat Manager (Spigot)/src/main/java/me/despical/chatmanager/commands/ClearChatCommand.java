@@ -5,7 +5,6 @@ import com.google.common.io.ByteStreams;
 import me.despical.chatmanager.Main;
 import me.despical.chatmanager.utils.Utils;
 import org.apache.commons.lang.StringUtils;
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -46,7 +45,7 @@ public class ClearChatCommand implements CommandExecutor {
         ByteArrayDataOutput output = ByteStreams.newDataOutput();
         output.writeUTF("despicalclearchat");
         output.writeUTF(StringUtils.repeat(" \n", 100));
-        output.writeUTF(Utils.colorize(plugin.getConfig().getString("Cleared-Chat").replace("%player%", args[0])));
+        output.writeUTF(Utils.colorize(plugin.getConfig().getString("Cleared-Chat").replace("%player%", player.getName())));
 
         Utils.sendToBungeeCord(player, output, "despical:clearchat");
         return true;
